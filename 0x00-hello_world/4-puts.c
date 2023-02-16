@@ -1,8 +1,7 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main -  a C program that prints with puts 
  *
  * Return: Always 0 (Success)
  */
