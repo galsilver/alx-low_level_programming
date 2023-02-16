@@ -1,12 +1,8 @@
 #!/bin/bash
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Description: prints "my mini program"
- *
- * Return: Always 0 (Success)
+ * main - main block
+ * Return: 0
  */
 int main(void)
 {
