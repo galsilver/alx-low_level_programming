@@ -3,9 +3,9 @@
 /**
  * main - entry block
  * description You can only use the putchar function
- * return 0
+ * Return: 0
  */
-int main (void)
+int main(void)
 {
 	char c = 'a';
 
