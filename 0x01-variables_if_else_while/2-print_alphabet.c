@@ -5,8 +5,7 @@
  * description You can only use the putchar function
  * return 0
  */
-
-int main(void)
+int main (void)
 {
 	char c = 'a';
 
