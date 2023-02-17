@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * positive anything is better than 
+ * positive anything is better than
  *
  * negative
  */
