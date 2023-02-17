@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- * main  - main block
+ * main - main block
  * description You can only use the putchar function
  * return 0
  */
