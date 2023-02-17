@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * positive anything is better than
+ * main - Entry point
  *
- * negative
+ * Return: Always 0
  */
 int main(void)
 {
