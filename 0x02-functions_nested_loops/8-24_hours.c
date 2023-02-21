@@ -1,29 +1,22 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * jack_bauer - prints time table in this format: HH:MM
+ * Return: the sum of two numbers.
  */
 void jack_bauer(void)
 {
-	int a = 0, b = 0, c = 0;
+	int h, m;
 
-	for (a = 0; a < 24; a++)
+	for (h = 0; h < 24; h++)
 	{
-		for (b = 0; b < 6; b++)
+		for (m = 0; m < 60; m++)
 		{
-			for (c = 0; c < 10; c++)
-			{
-				_putchar((a / 10) + '0');
-				_putchar((a % 10) + '0');
-				_putchar(':');
-				_putchar(b + '0');
-				_putchar(c + '0');
-				_putchar('\n');
-			}
-			c = 0;
+			_putchar((h / 10) + '0');
+			_putchar((h % 10) + '0');
+			_putchar(':');
+			_putchar((m / 10) + '0');
+			_putchar((m % 10) + '0');
+			_putchar('\n');
 		}
-		b = 0;
 	}
 }
