@@ -1,21 +1,19 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - a program that prints _putchar, followed by a new line
  *
- * Return: Always 0.
+ * Return = 0;
  */
 int main(void)
 {
-	char main[] = "Main";
-	int i = 0;
+	char c[] = "_putchar";
+	int i;
 
-	while (main[i] != '\0')
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(main[i]);
-		i++;
+		_putchar(c[i]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
