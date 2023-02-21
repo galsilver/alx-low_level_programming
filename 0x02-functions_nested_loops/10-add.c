@@ -6,11 +6,7 @@
  * @j: The second number to be added.
  * Return: the sum of two numbers.
  */
-int add(int a, int b)
+int add(int i, int j)
 {
-	int result;
-
-	result = a + b;
-
-	return (result);
+	return (i + j);
 }
